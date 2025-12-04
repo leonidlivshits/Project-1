@@ -1,0 +1,47 @@
+# Unreal Engine - recommended
+
+# Project / engine generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.log
+
+# Build folders
+Build/
+Builds/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+*.vcxproj*
+*.vcproj*
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Unity / other engine leftovers (if present)
+[Ll]ibrary/
+[Tt]emp/
+
+# Optional Editor caches
+*.opensdf
+.vs/
+
+# Do NOT ignore Content/ — this contains game assets (uasset, umap)
+# Do NOT ignore Source/ or Config/ or .uproject files
+
+# If you use Git LFS, track large binaries in .gitattributes instead:
+#   *.uasset filter=lfs diff=lfs merge=lfs -text
+#   *.umap  filter=lfs diff=lfs merge=lfs -text
